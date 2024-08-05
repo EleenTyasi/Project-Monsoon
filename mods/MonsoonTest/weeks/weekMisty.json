@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Hurricane",
+			"bf",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Standard,Uber,Greened",
+	"weekCharacters": [
+		"dad",
+		"",
+		"bf"
+	],
+	"storyName": "Testing Build",
+	"weekName": "Misty",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

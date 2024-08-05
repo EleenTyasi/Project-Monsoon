@@ -1,0 +1,9 @@
+{
+	"name": "mitty corpo clash",
+	"description": "woag, wip i guess maybe this works",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [170, 0, 255],
+	"discordRPC": "863222024192262205",
+	"iconFramerate": 10
+}
