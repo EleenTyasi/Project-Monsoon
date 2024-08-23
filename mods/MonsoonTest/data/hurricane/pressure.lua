@@ -76,8 +76,13 @@ function onBeatHit()
         function opponentNoteHit()
             health = getProperty('health')
             if getProperty('health') > 0.55 then
-                setProperty('health', health-(pressure * 0.012 * healthLossMult));
-                
+                if difficulty == 0 then
+                    setProperty('health', health-(pressure * 0.012 * healthLossMult)); -- Standard has a slower health loss rate. 
+                elseif difficulty == 1 then
+                    setProperty('health', health-(pressure * 0.2 * healthLossMult)); -- Greened is gonna be brutal.
+                elseif difficulty == 2 then
+                    setProperty('health', health-(pressure * 0.4 * healthLossMult)); -- Uber sure is one of the most difficulties of all time. 
+                end
             end
         end
 end
