@@ -25,10 +25,10 @@ function onCountdownStarted()
     if difficulty == 0 then
         pressure = pressure + 0.06
         debugPrint("Is this set to Standard? It should be 0.07.") -- debug text; if it works it should be fine
-    elseif difficulty == 1 then
+    elseif difficulty == 2 then
         pressure = pressure + 0.07
         debugPrint("Is this set to Greened? It should be 0.08.") -- public build won't have this text
-    elseif difficulty == 2 then
+    elseif difficulty == 1 then
         pressure = pressure + 0.09
         debugPrint("Is this set to Uber? It should be 0.1.") -- i wrote this code for a different mod; so i KNOW this works
     end
@@ -43,9 +43,9 @@ function noteMiss()
     if pressure >= 0.01 then
         if difficulty == 0 then
             pressure = pressure + 0.03
-        elseif difficulty == 1 then
-            pressure = pressure + 0.04
         elseif difficulty == 2 then
+            pressure = pressure + 0.04
+        elseif difficulty == 1 then
             pressure = pressure + 0.06
         end
     end;
@@ -78,9 +78,9 @@ function onBeatHit()
             if getProperty('health') > 0.55 then
                 if difficulty == 0 then
                     setProperty('health', health-(pressure * 0.012 * healthLossMult)); -- Standard has a slower health loss rate. 
-                elseif difficulty == 1 then
-                    setProperty('health', health-(pressure * 0.2 * healthLossMult)); -- Greened is gonna be brutal.
                 elseif difficulty == 2 then
+                    setProperty('health', health-(pressure * 0.2 * healthLossMult)); -- Greened is gonna be brutal.
+                elseif difficulty == 1 then
                     setProperty('health', health-(pressure * 0.4 * healthLossMult)); -- Uber sure is one of the most difficulties of all time. 
                 end
             end
