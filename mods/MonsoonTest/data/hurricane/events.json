@@ -6,23 +6,23 @@
 				[
 					[
 						"Change Scroll Speed",
-						"2.6",
+						"1.3",
 						"2"
+					]
+				]
+			],
+			[
+				116300,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0"
 					]
 				]
 			],
 			[
 				116400,
-				[
-					[
-						"Change Scroll Speed",
-						"2.8",
-						"2"
-					]
-				]
-			],
-			[
-				155000,
 				[
 					[
 						"Change Scroll Speed",
@@ -32,11 +32,41 @@
 				]
 			],
 			[
+				154900,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0"
+					]
+				]
+			],
+			[
+				155000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.8",
+						"2"
+					]
+				]
+			],
+			[
 				207400,
 				[
 					[
 						"Change Scroll Speed",
-						"2.4",
+						"1",
+						"0"
+					]
+				]
+			],
+			[
+				207500,
+				[
+					[
+						"Change Scroll Speed",
+						"1.8",
 						"2"
 					]
 				]
@@ -46,7 +76,17 @@
 				[
 					[
 						"Change Scroll Speed",
-						"2.2",
+						"0.8",
+						"2"
+					]
+				]
+			],
+			[
+				274200,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
 						"2"
 					]
 				]
